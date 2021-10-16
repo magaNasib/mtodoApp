@@ -1,1 +1,89 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(140, 140, 140);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 1rem 0;
+}
+.container{
+    width: 20rem;
+}
+form{  
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+form input{
+    width: 100%;
+    height: 2rem;
+    border: none;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+    
+}
+.success{
+    color: green;
+}
+.warning{
+    color: red;
+}
+.position{
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+form button{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0 0.3rem;
+    font-size: 1.1rem;
+    height: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    right: .4rem;
+}
+ul li{
+    list-style: none;
+    background-color: brown;
+    margin: .2rem 0;
+    padding: .5rem .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    
+}
+ul li a{
+    flex-basis: 5%;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #aaa;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.btn-div{
+    display: flex;
+    justify-content: end;
+    padding: .5rem 0;
+    
+}
+#btn-del-all{
+    border: none;
+    padding: .5rem;
+    width: 30%;
+    border-radius: .2rem;
+    cursor: pointer;
+
+}
