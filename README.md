@@ -1,0 +1,1 @@
+# magaNasib.github.io
