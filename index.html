@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="todoForm" autocomplete="off">
+        <div class="position">
+          <input type="text" id="todoInput" placeholder="What to do" />
+          <button type="submit" id="btnAdd">+</button>
+        </div>
+        <span id="todoInfo"></span>
+        <div class="position filterDiv">
+          <input type="text" id="todoFilter" placeholder="Search" />
+        </div>
+      </form>
+      <div id="todos">
+        <ul id="list-ul">
+        </ul>
+      </div>
+      <div class="btn-div">
+        <button id="btn-del-all">Delete All</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    
+  </body>
+</html>
